@@ -1,0 +1,64 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f8;
+  color: #333;
+}
+header {
+  background: #fff;
+  padding: 1em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav a {
+  margin: 0 10em;
+  text-decoration: none;
+  color: #555;
+}
+.hero {
+  padding: 12em 0em;
+  text-align: center;
+  background: #eaeaea;
+}
+.gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  padding: 1em;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+.contact form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+}
+form input, form textarea {
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #333;
+  color: white;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #fff;
+  margin-top: 2em;
+}
