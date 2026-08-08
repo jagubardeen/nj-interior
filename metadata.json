@@ -1,6 +1,0 @@
-{
-  "name": "NJ Interior Portfolio",
-  "description": "A luxury single-page interior design portfolio for NJ Interior, showcasing 30 curated projects highlighting premium woodwork, custom wardrobes, bespoke TV units, modular kitchens, and sophisticated living spaces.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
