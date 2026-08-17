@@ -3,1621 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NJ Interior | Bespoke Woodcraft Pudukkottai</title>
+    <title>NJ Interior | Premium Interior Designers in Pudukkottai</title>
     
-    <!-- Premium Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
-
-    <!-- Meta Tags for SEO -->
-    <meta name="description" content="NJ Interior designs and executes premier residential woodwork across Pudukkottai. Specializing in space-optimized sliding wardrobes, TV backdrops, and modular kitchens.">
-    <meta name="keywords" content="Interior designer Pudukkottai, TV unit Pudukkottai, Wardrobe Pudukkottai, Modular kitchen, NJ Interior Kalif Nagar">
-
-    <style>
-        /* CSS Reset & Sophisticated Obsidian & Gold Variables */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-        }
-
-        :root {
-            --bg-dark-obsidian: #080808;  /* Ultra-dark rich base background */
-            --bg-card: #0f0f10;           /* Soft dark elevation */
-            --bg-card-elevated: #151517;  /* Slightly lighter for highlights */
-            --accent-gold: #cba358;       /* Premium Champagne Gold */
-            --accent-gold-muted: #a48243;
-            --accent-gold-transparent: rgba(203, 163, 88, 0.08);
-            --border-color: #1a1a1c;      /* Fine dark guidelines */
-            --text-light: #f5f5f5;        /* Crisp white */
-            --text-muted: #8e8e93;        /* Warm steel gray */
-            --transition-speed: 0.35s;
-        }
-
-        body {
-            background-color: var(--bg-dark-obsidian);
-            color: var(--text-light);
-            overflow-x: hidden;
-        }
-
-        h1, h2, h3, h4, .serif-font {
-            font-family: 'Playfair Display', serif;
-        }
-
-        /* Global scrollbar style to match theme */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: var(--bg-dark-obsidian);
-        }
-        ::-webkit-scrollbar-thumb {
-            background: var(--border-color);
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--accent-gold);
-        }
-
-        /* Header Navigation */
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: rgba(8, 8, 8, 0.9);
-            backdrop-filter: blur(12px);
-            padding: 20px 10%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 1000;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .logo-block {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-        }
-
-        .logo-box {
-            width: 38px;
-            height: 38px;
-            border: 1px solid var(--accent-gold);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px;
-            font-weight: bold;
-            color: var(--accent-gold);
-            border-radius: 4px;
-        }
-
-        .logo-text h1 {
-            font-size: 18px;
-            font-weight: 700;
-            letter-spacing: 1.5px;
-            color: var(--text-light);
-            line-height: 1.1;
-        }
-
-        .logo-text span {
-            font-size: 8px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            color: var(--accent-gold);
-            text-transform: uppercase;
-            display: block;
-            margin-top: 2px;
-        }
-
-        nav {
-            display: flex;
-            gap: 30px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: var(--text-muted);
-            font-size: 13.5px;
-            font-weight: 500;
-            transition: color var(--transition-speed);
-        }
-
-        nav a:hover {
-            color: var(--text-light);
-        }
-
-        .header-actions {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .phone-capsule {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            border: 1px solid var(--border-color);
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 12.5px;
-            font-weight: 500;
-            color: var(--text-light);
-            text-decoration: none;
-            transition: background var(--transition-speed);
-        }
-
-        .phone-capsule:hover {
-            background-color: var(--bg-card-elevated);
-        }
-
-        .phone-capsule svg {
-            fill: var(--accent-gold);
-            width: 14px;
-            height: 14px;
-        }
-
-        .btn-gold-pill {
-            background-color: var(--accent-gold);
-            color: var(--bg-dark-obsidian);
-            padding: 10px 22px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 600;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            border: none;
-            cursor: pointer;
-            transition: background var(--transition-speed);
-        }
-
-        .btn-gold-pill:hover {
-            background-color: var(--accent-gold-hover, #e2c299);
-        }
-
-        /* Hero Section */
-        .hero-section {
-            padding: 140px 10% 80px 10%;
-            display: grid;
-            grid-template-columns: 1.1fr 0.9fr;
-            gap: 60px;
-            align-items: center;
-        }
-
-        .hero-tag {
-            display: inline-block;
-            border: 1px solid rgba(203, 163, 88, 0.3);
-            background: var(--accent-gold-transparent);
-            color: var(--accent-gold);
-            padding: 6px 14px;
-            border-radius: 4px;
-            font-size: 10px;
-            font-weight: 600;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            margin-bottom: 25px;
-        }
-
-        .hero-title {
-            font-size: 56px;
-            line-height: 1.1;
-            margin-bottom: 25px;
-            font-weight: 500;
-        }
-
-        .hero-title span.italic-gold {
-            font-style: italic;
-            color: var(--accent-gold);
-        }
-
-        .hero-desc {
-            font-size: 15px;
-            line-height: 1.6;
-            color: var(--text-muted);
-            margin-bottom: 35px;
-            max-width: 520px;
-        }
-
-        .hero-ctas {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 45px;
-        }
-
-        .hero-btn-dark {
-            border: 1px solid var(--border-color);
-            background-color: transparent;
-            color: var(--text-light);
-            padding: 12px 26px;
-            border-radius: 20px;
-            font-size: 13.5px;
-            font-weight: 500;
-            text-decoration: none;
-            transition: background var(--transition-speed);
-        }
-
-        .hero-btn-dark:hover {
-            background-color: var(--bg-card);
-        }
-
-        .hero-stats {
-            display: flex;
-            gap: 40px;
-            border-top: 1px solid var(--border-color);
-            padding-top: 30px;
-        }
-
-        .stat-item h4 {
-            font-size: 32px;
-            color: var(--accent-gold);
-            font-weight: 500;
-            line-height: 1;
-            margin-bottom: 5px;
-        }
-
-        .stat-item p {
-            font-size: 9.5px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            color: var(--text-muted);
-            text-transform: uppercase;
-        }
-
-        /* Hero Right: Premium Image & Float Badges */
-        .hero-visual {
-            position: relative;
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .main-hero-img-wrapper {
-            width: 85%;
-            height: 520px;
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid var(--border-color);
-        }
-
-        .main-hero-img-wrapper img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* Floating Badge Styling */
-        .floating-badge {
-            position: absolute;
-            background: rgba(15, 15, 16, 0.85);
-            backdrop-filter: blur(8px);
-            border: 1px solid var(--border-color);
-            padding: 12px 18px;
-            border-radius: 8px;
-            display: flex;
-            gap: 12px;
-            align-items: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            z-index: 10;
-        }
-
-        .floating-badge-icon {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background-color: var(--accent-gold-transparent);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid rgba(203, 163, 88, 0.2);
-        }
-
-        .floating-badge-icon svg {
-            width: 16px;
-            height: 16px;
-            fill: var(--accent-gold);
-        }
-
-        .floating-badge-text h5 {
-            font-size: 11.5px;
-            font-weight: 700;
-            color: var(--text-light);
-            margin-bottom: 2px;
-        }
-
-        .floating-badge-text p {
-            font-size: 9.5px;
-            color: var(--text-muted);
-        }
-
-        .badge-marine {
-            top: 40px;
-            left: 0;
-        }
-
-        .badge-hardware {
-            bottom: 120px;
-            right: -20px;
-        }
-
-        /* Overlapping Bottom Content Card inside Hero Visual */
-        .featured-woodwork-card {
-            position: absolute;
-            bottom: -30px;
-            left: 40px;
-            width: 75%;
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.6);
-        }
-
-        .featured-tag {
-            font-size: 8px;
-            font-weight: 700;
-            color: var(--accent-gold);
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            margin-bottom: 6px;
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        .featured-woodwork-card h4 {
-            font-size: 16px;
-            font-weight: 600;
-            margin-bottom: 6px;
-            color: var(--text-light);
-        }
-
-        .featured-woodwork-card p {
-            font-size: 11.5px;
-            color: var(--text-muted);
-            line-height: 1.4;
-        }
-
-        /* Portfolio Grid Section */
-        .portfolio-section {
-            padding: 100px 10% 80px 10%;
-            border-top: 1px solid var(--border-color);
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .section-header h2 {
-            font-size: 38px;
-            font-weight: 500;
-            margin-bottom: 10px;
-        }
-
-        .section-header p {
-            font-size: 14px;
-            color: var(--text-muted);
-        }
-
-        .portfolio-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 30px;
-        }
-
-        .project-card {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            overflow: hidden;
-            cursor: pointer;
-            opacity: 0;
-            transform: translateY(40px);
-            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .project-card.revealed {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .project-card:hover {
-            border-color: var(--accent-gold);
-        }
-
-        .project-card-img {
-            height: 240px;
-            overflow: hidden;
-        }
-
-        .project-card-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform var(--transition-speed);
-        }
-
-        .project-card:hover .project-card-img img {
-            transform: scale(1.04);
-        }
-
-        .project-card-body {
-            padding: 24px;
-        }
-
-        .project-card-cat {
-            font-size: 9px;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: var(--accent-gold);
-            letter-spacing: 1px;
-            margin-bottom: 6px;
-        }
-
-        .project-card-title {
-            font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: var(--text-light);
-        }
-
-        .project-card-loc {
-            font-size: 13px;
-            color: var(--text-muted);
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .project-card-loc svg {
-            width: 12px;
-            height: 12px;
-            fill: var(--accent-gold);
-        }
-
-        /* 4-Step Process & Inquiry Form Grid */
-        .journey-section {
-            padding: 100px 10%;
-            background-color: #0c0c0d;
-            border-top: 1px solid var(--border-color);
-            display: grid;
-            grid-template-columns: 1.12fr 0.88fr;
-            gap: 60px;
-            align-items: start;
-        }
-
-        .journey-left-header p.mini-title {
-            font-size: 10px;
-            font-weight: 700;
-            letter-spacing: 1.5px;
-            color: var(--accent-gold);
-            text-transform: uppercase;
-            margin-bottom: 12px;
-        }
-
-        .journey-left-header h2 {
-            font-size: 42px;
-            line-height: 1.15;
-            margin-bottom: 25px;
-            font-weight: 500;
-        }
-
-        .journey-left-header .desc {
-            font-size: 14.5px;
-            line-height: 1.6;
-            color: var(--text-muted);
-            margin-bottom: 45px;
-            max-width: 500px;
-        }
-
-        /* Steps Layout */
-        .process-steps-container {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
-
-        .step-item {
-            display: flex;
-            gap: 20px;
-            align-items: flex-start;
-        }
-
-        .step-number {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            border: 1px solid rgba(203, 163, 88, 0.4);
-            background-color: var(--accent-gold-transparent);
-            color: var(--accent-gold);
-            font-size: 11px;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            margin-top: 2px;
-        }
-
-        .step-content h3 {
-            font-size: 17px;
-            font-weight: 600;
-            margin-bottom: 6px;
-            color: var(--text-light);
-        }
-
-        .step-content p {
-            font-size: 13.5px;
-            line-height: 1.5;
-            color: var(--text-muted);
-            max-width: 460px;
-        }
-
-        /* Right Panel: Sleek Inquiry Form Card */
-        .quote-form-card {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 40px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.6);
-        }
-
-        .quote-form-card h2 {
-            font-size: 26px;
-            font-weight: 500;
-            margin-bottom: 10px;
-            color: var(--text-light);
-        }
-
-        .quote-form-card p.subtitle {
-            font-size: 13px;
-            color: var(--text-muted);
-            margin-bottom: 30px;
-            line-height: 1.5;
-        }
-
-        .form-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-
-        .form-group {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            margin-bottom: 20px;
-        }
-
-        .form-row .form-group {
-            margin-bottom: 0;
-        }
-
-        .form-group label {
-            font-size: 10px;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            color: var(--text-muted);
-            text-transform: uppercase;
-        }
-
-        .form-group input, .form-group select, .form-group textarea {
-            background-color: #060607;
-            border: 1px solid var(--border-color);
-            color: var(--text-light);
-            padding: 12px 16px;
-            border-radius: 4px;
-            font-size: 13.5px;
-            transition: border-color var(--transition-speed);
-        }
-
-        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
-            outline: none;
-            border-color: var(--accent-gold);
-        }
-
-        .form-disclaimer {
-            font-size: 10.5px;
-            color: var(--text-muted);
-            line-height: 1.4;
-            margin-top: 15px;
-            font-style: italic;
-        }
-
-        /* Horizontal/Left Side Compact Contact Bar */
-        .bottom-contact-bar {
-            grid-column: span 2;
-            margin-top: 60px;
-            border-top: 1px solid var(--border-color);
-            padding-top: 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        /* Fixed Navigation Pill Widget (Anchored Bottom-Left) */
-        .bottom-floating-widget {
-            position: fixed;
-            bottom: 30px;
-            left: 30px;
-            z-index: 1001;
-            display: flex;
-            align-items: center;
-            background: rgba(15, 15, 16, 0.85);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(203, 163, 88, 0.25);
-            padding: 8px 12px;
-            border-radius: 30px;
-            box-shadow: 0 10px 35px rgba(0,0,0,0.6);
-            gap: 8px;
-        }
-
-        .widget-circle-btn {
-            width: 38px;
-            height: 38px;
-            border-radius: 50%;
-            background-color: var(--bg-card-elevated);
-            border: 1px solid var(--border-color);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all var(--transition-speed);
-            text-decoration: none;
-        }
-
-        .widget-circle-btn:hover {
-            border-color: var(--accent-gold);
-            transform: scale(1.05);
-        }
-
-        .widget-circle-btn svg {
-            width: 14px;
-            height: 14px;
-            fill: var(--text-light);
-            transition: fill var(--transition-speed);
-        }
-
-        .widget-circle-btn:hover svg {
-            fill: var(--accent-gold);
-        }
-
-        .widget-capsule-btn {
-            background-color: var(--accent-gold);
-            color: var(--bg-dark-obsidian);
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 11px;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            transition: background var(--transition-speed);
-        }
-
-        .widget-capsule-btn:hover {
-            background-color: var(--accent-gold-hover, #e2c299);
-        }
-
-        .widget-capsule-btn svg {
-            width: 10px;
-            height: 10px;
-            fill: var(--bg-dark-obsidian);
-        }
-
-        /* Detail Modal */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 2000;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(8, 8, 8, 0.95);
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .modal-content {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-color);
-            max-width: 800px;
-            width: 100%;
-            max-height: 90vh;
-            overflow-y: auto;
-            border-radius: 12px;
-            position: relative;
-            padding: 40px;
-            animation: modalFadeIn 0.3s ease;
-        }
-
-        @keyframes modalFadeIn {
-            from { transform: scale(0.95); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
-        }
-
-        .close-modal {
-            position: absolute;
-            top: 20px;
-            right: 25px;
-            font-size: 32px;
-            cursor: pointer;
-            color: var(--text-muted);
-            transition: color var(--transition-speed);
-        }
-
-        .close-modal:hover {
-            color: var(--accent-gold);
-        }
-
-        .modal-details {
-            margin-top: 10px;
-        }
-
-        .modal-title {
-            font-size: 26px;
-            font-weight: 500;
-            margin-bottom: 5px;
-            color: var(--text-light);
-        }
-
-        .modal-loc {
-            color: var(--accent-gold);
-            font-weight: 600;
-            margin-bottom: 25px;
-            font-size: 14px;
-        }
-
-        .modal-desc {
-            color: var(--text-muted);
-            margin-bottom: 30px;
-            line-height: 1.6;
-            font-size: 14px;
-        }
-
-        .modal-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 15px;
-            margin-top: 25px;
-        }
-
-        .modal-gallery img {
-            width: 100%;
-            height: 160px;
-            object-fit: cover;
-            border-radius: 6px;
-            border: 1px solid var(--border-color);
-        }
-
-        /* Floating Chat Widget Overlay */
-        .chat-overlay-window {
-            display: none;
-            position: fixed;
-            bottom: 95px;
-            left: 30px;
-            width: 320px;
-            height: 420px;
-            background-color: var(--bg-card);
-            border-radius: 12px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.6);
-            flex-direction: column;
-            overflow: hidden;
-            border: 1px solid rgba(203, 163, 88, 0.25);
-            z-index: 1002;
-            animation: slideUp 0.3s ease;
-        }
-
-        @keyframes slideUp {
-            from { transform: translateY(20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-
-        .chat-header {
-            background-color: var(--bg-dark-obsidian);
-            color: var(--text-light);
-            border-bottom: 1px solid var(--border-color);
-            padding: 15px;
-            font-weight: bold;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .chat-header span {
-            font-size: 13.5px;
-        }
-
-        .chat-body {
-            flex: 1;
-            padding: 15px;
-            overflow-y: auto;
-            background-color: #09090a;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .chat-bubble {
-            max-width: 85%;
-            padding: 10px 14px;
-            border-radius: 15px;
-            font-size: 12.5px;
-            line-height: 1.4;
-        }
-
-        .chat-bubble.bot {
-            background-color: var(--bg-card);
-            color: var(--text-light);
-            align-self: flex-start;
-            border-bottom-left-radius: 2px;
-            border: 1px solid var(--border-color);
-        }
-
-        .chat-bubble.user {
-            background-color: var(--accent-gold);
-            color: var(--bg-dark-obsidian);
-            align-self: flex-end;
-            border-bottom-right-radius: 2px;
-            font-weight: 500;
-        }
-
-        .chat-options {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-            padding: 12px 15px;
-            background-color: var(--bg-card);
-            border-top: 1px solid var(--border-color);
-        }
-
-        .chat-option-btn {
-            background: none;
-            border: 1px solid var(--border-color);
-            color: var(--accent-gold);
-            padding: 8px 12px;
-            border-radius: 20px;
-            font-size: 11px;
-            cursor: pointer;
-            text-align: left;
-            transition: all var(--transition-speed);
-        }
-
-        .chat-option-btn:hover {
-            background-color: var(--accent-gold);
-            color: var(--bg-dark-obsidian);
-        }
-
-        /* Footer Section */
-        footer {
-            padding: 80px 10% 40px 10%;
-            background-color: var(--bg-dark-obsidian);
-            border-top: 1px solid var(--border-color);
-        }
-
-        .footer-grid {
-            display: grid;
-            grid-template-columns: 1.2fr 0.8fr 1fr;
-            gap: 60px;
-            margin-bottom: 60px;
-        }
-
-        .footer-desc {
-            font-size: 13.5px;
-            line-height: 1.6;
-            color: var(--text-muted);
-            margin: 20px 0;
-            max-width: 320px;
-        }
-
-        .footer-pricing-tag {
-            font-size: 9px;
-            font-weight: 700;
-            color: var(--accent-gold);
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        .footer-nav-col h4, .footer-contact-col h4 {
-            font-size: 11px;
-            font-weight: 700;
-            color: var(--text-light);
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-bottom: 25px;
-        }
-
-        .footer-nav-col ul {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .footer-nav-col ul a {
-            text-decoration: none;
-            color: var(--text-muted);
-            font-size: 13.5px;
-            transition: color var(--transition-speed);
-        }
-
-        .footer-nav-col ul a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-contact-list {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .footer-contact-item {
-            display: flex;
-            gap: 12px;
-            align-items: flex-start;
-        }
-
-        .footer-contact-item svg {
-            width: 14px;
-            height: 14px;
-            fill: var(--accent-gold);
-            margin-top: 2px;
-            flex-shrink: 0;
-        }
-
-        .footer-contact-item p, .footer-contact-item a {
-            font-size: 13.5px;
-            color: var(--text-muted);
-            text-decoration: none;
-            line-height: 1.5;
-        }
-
-        .footer-contact-item a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-bottom {
-            border-top: 1px solid var(--border-color);
-            padding-top: 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .footer-bottom p {
-            font-size: 12px;
-            color: var(--text-muted);
-        }
-
-        .footer-bottom-links {
-            display: flex;
-            gap: 20px;
-        }
-
-        .footer-bottom-links a {
-            font-size: 12px;
-            color: var(--text-muted);
-            text-decoration: none;
-            transition: color var(--transition-speed);
-        }
-
-        .footer-bottom-links a:hover {
-            color: var(--accent-gold);
-        }
-
-        /* Responsive Layout Grid */
-        @media (max-width: 1024px) {
-            header {
-                padding: 20px 5%;
-            }
-            .hero-section, .journey-section {
-                grid-template-columns: 1fr;
-                gap: 50px;
-                padding: 120px 5% 60px 5%;
-            }
-            .hero-visual {
-                justify-content: center;
-            }
-            .main-hero-img-wrapper {
-                width: 100%;
-                height: 450px;
-            }
-            .portfolio-section {
-                padding: 60px 5%;
-            }
-            .footer-grid {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-            footer {
-                padding: 60px 5% 30px 5%;
-            }
-        }
-    </style>
+    <!-- Meta tags for overall SEO -->
+    <meta name="description" content="NJ Interior offers premium, affordable interior design services in Pudukkottai including TV units, wardrobes, false ceilings, and modular kitchens.">
+    <meta name="keywords" content="Interior designer Pudukkottai, TV unit Pudukkottai, Wardrobe Pudukkottai, False ceiling Pudukkottai, Modular kitchen Pudukkottai, NJ Interior">
+
+    <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
+<noscript>
+    <div style="padding:20px;text-align:center;background:#fff3cd;color:#664d03;">
+        JavaScript is required for the interactive project gallery and chatbot.
+        Please enable JavaScript to view the complete NJ Interior website.
+    </div>
+</noscript>
 
-    <!-- Header Navigation Bar -->
+
+    <!-- Header Navigation -->
     <header>
-        <a href="#home" class="logo-block">
-            <div class="logo-box">NJ</div>
-            <div class="logo-text">
-                <h1>NJ INTERIOR</h1>
-                <span>Bespoke Woodcraft</span>
-            </div>
-        </a>
+        <div class="logo">
+            <h1>NJ <span>Interior</span></h1>
+        </div>
         <nav>
             <a href="#home">Home</a>
-            <a href="#projects">Signature Projects (30)</a>
+            <a href="#projects">Projects</a>
             <a href="#query">Inquire</a>
         </nav>
-        <div class="header-actions">
-            <a href="tel:+918681828226" class="phone-capsule">
-                <svg viewBox="0 0 24 24">
-                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.57a1 1 0 00-1.01.24l-2.2 2.2a15.045 15.045 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1A11.36 11.36 0 018.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/>
-                </svg>
-                +91 86818 28226
-            </a>
-            <a href="#query" class="btn-gold-pill">
-                <!-- Sparkle SVG Icon -->
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2l2.4 7.2L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/>
-                </svg>
-                Book Free Consult
-            </a>
-        </div>
     </header>
 
-    <!-- Hero Showcase Section -->
-    <section class="hero-section" id="home">
-        <div class="hero-content">
-            <div class="hero-tag">Pudukkottai's Finest Woodcraft Artisans</div>
-            <h2 class="hero-title">Crafting Spaces,<br><span class="italic-gold">Perfecting Lifestyles</span></h2>
-            <p class="hero-desc">Bespoke interior execution by NJ Interior. We bring master woodwork to life — from premium floor-to-ceiling wardrobes with flawless sliding gear to backlit custom marble TV units, all backed by a 10-year warranty.</p>
-            <div class="hero-ctas">
-                <a href="#projects" class="btn-gold-pill">View Our Projects →</a>
-                <a href="#query" class="hero-btn-dark">Get Free Woodwork Quote</a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <h4>100%</h4>
-                    <p>Waterproof Plywood</p>
-                </div>
-                <div class="stat-item">
-                    <h4>10Y</h4>
-                    <p>Direct Warranty</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="hero-visual">
-            <div class="main-hero-img-wrapper">
-                <!-- Premium High-end Interior Mockup Image -->
-                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="NJ Interior Bespoke Credenza Design">
-            </div>
-            
-            <!-- Float Badge 1 (Top Left) -->
-            <div class="floating-badge badge-marine">
-                <div class="floating-badge-icon">
-                    <!-- Shield SVG -->
-                    <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 15l-4-4 1.41-1.41L10 13.17l6.59-6.59L18 8l-8 8z"/></svg>
-                </div>
-                <div class="floating-badge-text">
-                    <h5>BWP Marine Grade</h5>
-                    <p>Termite-proof & Boiling-water proof</p>
-                </div>
-            </div>
-
-            <!-- Float Badge 2 (Bottom Right) -->
-            <div class="floating-badge badge-hardware">
-                <div class="floating-badge-icon">
-                    <!-- CPU/Hardware SVG -->
-                    <svg viewBox="0 0 24 24"><path d="M19 9h2V7h-2V5c0-1.1-.9-2-2-2h-2V1h-2v2h-2V1h-2v2H7V1H5v2c-1.1 0-2 .9-2 2v2H1v2h2v2H1v2h2v2H1v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2v2h2v-2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9zm-4 6H9V9h6v6z"/></svg>
-                </div>
-                <div class="floating-badge-text">
-                    <h5>Precision German Hardware</h5>
-                    <p>Hettich & Blum Soft-close Slides</p>
-                </div>
-            </div>
-
-            <!-- Overlapping Bottom Context Card -->
-            <div class="featured-woodwork-card">
-                <div class="featured-tag">
-                    <!-- Star Icon -->
-                    <svg width="10" height="10" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                    Featured Woodwork
-                </div>
-                <h4>The Obsidian Sliding Closet</h4>
-                <p>Glass profiles, soft-close sliding dampers, and integrated sensor hangers.</p>
-            </div>
-        </div>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>NJ Interior</h2>
+        <p>Premium designs for modern homes. Creating outstanding False Ceilings, Wardrobes, TV Units, and Modular Kitchens in Pudukkottai.</p>
+        <a href="#projects" class="hero-btn">View Our Projects</a>
     </section>
 
-    <!-- Project Gallery Section (Scroll Reveal) -->
+    <!-- Portfolio Section -->
     <section class="portfolio-section" id="projects">
-        <div class="section-header">
-            <h2>Our Signature Portfolios</h2>
-            <p>A handpicked overview of 30 landmark interior setups across Pudukkottai District.</p>
+        <h2 class="section-title">Our Project Transformations</h2>
+        <p class="section-subtitle">Scroll down to watch our work unfold. Click on any design to explore the complete site gallery.</p>
+
+        <!-- Projects Grid. JS will inject elements formatted with search-engine-readable Schema.org microdata -->
+        <div class="projects-grid" id="projectsGrid">
+            <div style="grid-column:1/-1; padding:30px; text-align:center;">
+                <h3>NJ Interior Projects</h3>
+                <p>Our project gallery is loading...</p>
+            </div>
         </div>
-        
-        <!-- Grid populated automatically with localized project microdata (Schema.org markup) -->
-        <div class="portfolio-grid" id="portfolioGrid"></div>
     </section>
 
-    <!-- 4-Step Process & Inquiry Form Grid -->
-    <section class="journey-section" id="query">
-        <div class="journey-left">
-            <div class="journey-left-header">
-                <p class="mini-title">Work With Us</p>
-                <h2>Our 4-Step Seamless<br>Woodwork Journey</h2>
-                <p class="desc">NJ Interior removes the stress of home construction. From raw measurement drafts to high-fidelity factory woodwork, here is how we design your space.</p>
-            </div>
-
-            <div class="process-steps-container">
-                <div class="step-item">
-                    <div class="step-number">01</div>
-                    <div class="step-content">
-                        <h3>Floor Plan Review & Sizing</h3>
-                        <p>Submit your blueprints or let our engineer take site measurements to fit wardrobes and TV units seamlessly.</p>
-                    </div>
-                </div>
-                <div class="step-item">
-                    <div class="step-number">02</div>
-                    <div class="step-content">
-                        <h3>3D Texture & Material Choice</h3>
-                        <p>Select laminates, high-gloss acrylic panels, custom glass profiles, or veneers at our experience layout.</p>
-                    </div>
-                </div>
-                <div class="step-item">
-                    <div class="step-number">03</div>
-                    <div class="step-content">
-                        <h3>Factory-Precision Joinery</h3>
-                        <p>We process and cut panels in our dust-free facility using heavy-duty German machinery for bubble-free edge banding.</p>
-                    </div>
-                </div>
-                <div class="step-item">
-                    <div class="step-number">04</div>
-                    <div class="step-content">
-                        <h3>10-Day Clean Assembly</h3>
-                        <p>Our skilled carpenters assemble and clean up, leaving you with spotless and beautiful TV decks.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sleek Custom Inquiry Card -->
-        <div class="quote-form-card">
-            <h2>Request a Free Design Quote</h2>
-            <p class="subtitle">Let us know what you are looking for. Our woodwork design specialists will review your requirements.</p>
+    <!-- Query & Update Section -->
+    <section class="query-section" id="query">
+        <div class="query-container">
+            <h2 style="margin-bottom: 10px; font-size: 28px; text-align: center;">Get an Estimate / Project Update</h2>
+            <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">Fill out the form below, and our designers will reach out shortly.</p>
             
-            <!-- Static HTML Form with asynchronous Google Form Sync architecture -->
-            <form 
-                class="query-form" 
-                id="contactGForm" 
-                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfD_YOUR_FORM_ID_HERE/formResponse" 
-                method="POST" 
-                onsubmit="handleFormSubmission(event)"
-            >
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="formName">Your Name *</label>
-                        <input type="text" id="formName" name="entry.2000001" required placeholder="NJ">
-                    </div>
-                    <div class="form-group">
-                        <label for="formPhone">Contact Number *</label>
-                        <input type="tel" id="formPhone" name="entry.2000002" required placeholder="+91 XXXXX XXXXX">
-                    </div>
-                </div>
-                
+            <form class="query-form" onsubmit="handleFormSubmit(event)">
                 <div class="form-group">
-                    <label for="formEmail">Email Address *</label>
-                    <input type="email" id="formEmail" name="entry.2000003" required placeholder="njinterior.in@outlook.com">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" required placeholder="Enter your full name">
                 </div>
-
                 <div class="form-group">
-                    <label for="formService">Work Needed</label>
-                    <select id="formService" name="entry.2000004" required>
-                        <option value="General Inquiries">General Inquiries</option>
-                        <option value="Modular Kitchen">Modular Kitchen</option>
-                        <option value="TV Unit & Backdrops">TV Unit & Backdrops</option>
-                        <option value="Precision Sliding Closets">Precision Sliding Closets</option>
-                        <option value="Gypsum False Ceiling">Gypsum False Ceiling</option>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required placeholder="Enter your contact number">
+                </div>
+                <div class="form-group">
+                    <label for="service">Select Requirement</label>
+                    <select id="service" required>
+                        <option value="">-- Choose Category --</option>
+                        <option value="tv-unit">TV Unit Design</option>
+                        <option value="false-ceiling">False Ceiling</option>
+                        <option value="wardrobe">Wardrobe Planning</option>
+                        <option value="kitchen">Modular Kitchen Cabinet</option>
+                        <option value="full-home">Complete Home Interior</option>
+                        <option value="update">Request My Project Status Update</option>
                     </select>
                 </div>
-
                 <div class="form-group">
-                    <label for="formBrief">Design Brief / Floor Plan Details</label>
-                    <textarea id="formBrief" name="entry.2000005" rows="4" placeholder="Specify your dimensions, bedroom counts, or wardrobe laminate styles (e.g., Wardrobe sliding mechanisms, floating wooden TV decks)..."></textarea>
+                    <label for="message">Detailed Note / Site Address</label>
+                    <textarea id="message" rows="4" placeholder="Brief details about your space..."></textarea>
                 </div>
-
-                <button type="submit" class="btn-gold-pill" style="width: 100%; justify-content: center; padding: 14px;">
-                    <!-- Send/Paperplane Icon -->
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-                    </svg>
-                    Schedule Design Briefing
-                </button>
-                <p class="form-disclaimer">* NJ Interior guarantees full privacy. Your contact details will only be used to schedule a free 3D blueprint consultation.</p>
+                <button type="submit" class="submit-btn">Submit Inquiry</button>
             </form>
+
+            <!-- Contact Details Block Down Below Inquiry Form -->
+            <div class="contact-details">
+                <h3>Our Contact Information</h3>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-item-title">📍 Visit Us</div>
+                        <p>NJ Interior,<br>Main Road, Pudukkottai,<br>Tamil Nadu - 622001</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-title">📞 Call & Email</div>
+                        <p>
+                            Phone: <a href="tel:+911234567890">+91 12345 67890</a><br>
+                            Email: <a href="mailto:info@njinterior.com">info@njinterior.com</a>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-title">🕒 Hours</div>
+                        <p>Monday - Saturday:<br>9:30 AM - 7:30 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Fixed Floating Widget Dock (Bottom-Left Side) -->
-    <div class="bottom-floating-widget">
-        <!-- Call Button -->
-        <a href="tel:+918681828226" class="widget-circle-btn" title="Call Showroom">
-            <svg viewBox="0 0 24 24">
-                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.57a1 1 0 00-1.01.24l-2.2 2.2a15.045 15.045 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1A11.36 11.36 0 018.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/>
-            </svg>
-        </a>
-        <!-- Message/WhatsApp Button -->
-        <a href="https://wa.me/918681828226?text=Hi%20NJ%20Interior%2C%20I%20visited%20your%20website%20and%20I%27d%20like%20to%20get%20a%20design%20briefing." target="_blank" class="widget-circle-btn" title="Chat on WhatsApp">
-            <!-- Speech Bubble SVG -->
-            <svg viewBox="0 0 24 24">
-                <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
-            </svg>
-        </a>
-        <!-- AI/Assistant Interactive Bot Button -->
-        <button class="widget-circle-btn" onclick="toggleChatWindow()" title="Interactive Assistant">
-            <!-- Bot Head SVG -->
-            <svg viewBox="0 0 24 24">
-                <path d="M12 2a10 10 0 0110 10c0 5.52-4.48 10-10 10S2 17.52 2 12A10 10 0 0112 2zm0 4a3 3 0 00-3 3h6a3 3 0 00-3-3zm-4 7a2 2 0 100 4 2 2 0 000-4zm8 0a2 2 0 100 4 2 2 0 000-4z"/>
-            </svg>
-        </button>
-        <!-- Enquire Capsule Call to Action -->
-        <a href="#query" class="widget-capsule-btn">
-            <svg viewBox="0 0 24 24">
-                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-            </svg>
-            Enquire
-        </a>
-        <!-- Schedule Calendar Button -->
-        <button class="widget-circle-btn" onclick="scrollToInquiry()" title="Book Site Visit">
-            <!-- Calendar SVG -->
-            <svg viewBox="0 0 24 24">
-                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
-            </svg>
-        </button>
-    </div>
-
-    <!-- Slide-Up Interactive AI Assistant Overlay -->
-    <div class="chat-overlay-window" id="chatOverlay">
-        <div class="chat-header">
-            <span>Bespoke Assistant - NJ Interior</span>
-            <span style="cursor: pointer; font-size: 20px;" onclick="toggleChatWindow()">&times;</span>
-        </div>
-        <div class="chat-body" id="chatBody">
-            <div class="chat-bubble bot">
-                Hi! Welcome to NJ Interior Pudukkottai. How can our designers help you today?
-            </div>
-        </div>
-        <div class="chat-options">
-            <button class="chat-option-btn" onclick="botRespond('pricing')">💰 Price ranges for modular kitchens</button>
-            <button class="chat-option-btn" onclick="botRespond('location')">📍 Address details in Pudukkottai</button>
-            <button class="chat-option-btn" onclick="botRespond('consultation')">🕒 Book a free 3D blueprint consult</button>
-        </div>
-    </div>
-
-    <!-- Image Detail Modal Overlay -->
+    <!-- Dynamic Modal Overlay for Extended Photos -->
     <div class="modal" id="projectModal">
         <div class="modal-content">
             <span class="close-modal" onclick="closeModal()">&times;</span>
             <div class="modal-details">
                 <h3 class="modal-title" id="modalTitle">Project Title</h3>
                 <p class="modal-loc" id="modalLoc">Location</p>
-                <p class="modal-desc" id="modalDesc"></p>
-                <h4 style="font-size: 14px; margin-bottom: 15px; color: var(--text-light); text-transform: uppercase; letter-spacing: 1px;">On-Site Complete Gallery</h4>
-                <div class="modal-gallery" id="modalGallery"></div>
+                <p id="modalDesc" style="color: var(--text-muted); margin-bottom: 20px; line-height: 1.6;"></p>
+                <h4>Extended Site Gallery</h4>
+                <div class="modal-gallery" id="modalGallery">
+                    <!-- Dynamic extended images will be loaded here -->
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-brand-col">
-                <a href="#home" class="logo-block" style="margin-bottom: 20px;">
-                    <div class="logo-box">NJ</div>
-                    <div class="logo-text">
-                        <h1 style="font-size: 20px;">NJ INTERIOR</h1>
-                        <span>Bespoke Woodcraft</span>
-                    </div>
-                </a>
-                <p class="footer-desc">NJ Interior designs and executes premier residential woodwork across Pudukkottai, specialized in space-optimized sliding wardrobe configurations, television entertainment backdrops, and modular kitchen solutions.</p>
-                <span class="footer-pricing-tag">🏷️ Factory Direct Pricing & 10-Year Warranty</span>
-            </div>
+    <!-- Fixed Floating Widgets (Call, WhatsApp, & Chatbot) -->
+    <div class="fixed-widgets">
+        
+        <!-- Call Button (Optimized for Mobile Dialers) -->
+        <!-- Update with your actual business phone number -->
+        <a href="tel:+911234567890" class="floating-btn call-btn" title="Call Us Now">
+            <svg viewBox="0 0 24 24">
+                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.57a1 1 0 00-1.01.24l-2.2 2.2a15.045 15.045 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1A11.36 11.36 0 018.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/>
+            </svg>
+        </a>
 
-            <div class="footer-nav-col">
-                <h4>Quick Navigation</h4>
-                <ul>
-                    <li><a href="#home">Back to Top</a></li>
-                    <li><a href="#projects">Signature Projects (30)</a></li>
-                    <li><a href="#query">Get Free Design Quote</a></li>
-                </ul>
-            </div>
+        <!-- WhatsApp Floating Chat Logo -->
+        <!-- Update with your actual business phone number -->
+        <a href="https://wa.me/911234567890?text=Hi%20NJ%20Interior%2C%20I'd%20like%20to%20know%20more%20about%20your%20interior%20services%20in%20Pudukkottai." class="floating-btn whatsapp-btn" target="_blank" title="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.963C16.588 2.02 14.12 1 11.51 1H11.5c-5.44 0-9.866 4.372-9.87 9.802 0 1.714.452 3.387 1.312 4.878l-.991 3.618 3.731-.966zm12.353-5.12c-.302-.15-1.786-.88-2.06-.98-.273-.1-.471-.15-.67.15-.197.29-.766.98-.94 1.18-.173.19-.347.22-.648.07-1.004-.5-1.702-.85-2.375-1.37-.474-.37-.843-.83-1.123-1.33-.177-.3-.019-.46.13-.61.137-.13.3-.35.45-.53.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.07-.15-.67-1.62-.92-2.22-.24-.59-.49-.51-.67-.52-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.3-1.03 1-1.03 2.44s1.05 2.84 1.2 3.03c.15.19 2.07 3.1 5.003 4.31.7.29 1.25.46 1.68.6 1 .31 1.91.27 2.63.16.8-.12 2.45-.98 2.8-1.92.35-.94.35-1.75.25-1.92-.1-.17-.3-.27-.6-.42z"/>
+            </svg>
+        </a>
 
-            <div class="footer-contact-col">
-                <h4>Pudukkottai Office</h4>
-                <div class="footer-contact-list">
-                    <div class="footer-contact-item">
-                        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                        <p>NJ Interior,<br>Kalif Nagar 4th Street, Near SFS School,<br>Pudukkottai, Tamil Nadu - 622001</p>
-                    </div>
-                    <div class="footer-contact-item">
-                        <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-                        <a href="tel:+918681828226">+91 86818 28226</a>
-                    </div>
-                    <div class="footer-contact-item">
-                        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                        <a href="mailto:njinterior.in@outlook.com">njinterior.in@outlook.com</a>
-                    </div>
-                    <div class="footer-contact-item">
-                        <!-- Instagram Camera SVG -->
-                        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                        <a href="https://instagram.com/njinterior.in" target="_blank">@njinterior.in</a>
+        <!-- Interactive Chatbot -->
+        <div class="chatbot-widget">
+            <div class="chat-window" id="chatWindow">
+                <div class="chat-header">
+                    <span>NJ Interior Assistant</span>
+                    <span style="cursor: pointer;" onclick="toggleChat()">&times;</span>
+                </div>
+                <div class="chat-body" id="chatBody">
+                    <div class="chat-bubble bot">
+                        Hello! Welcome to NJ Interior Pudukkottai. How can we assist you with your project today?
                     </div>
                 </div>
+                <div class="chat-options">
+                    <button class="chat-option-btn" onclick="botRespond('estimate')">💰 Ask for pricing estimate</button>
+                    <button class="chat-option-btn" onclick="botRespond('location')">📍 Where is your Pudukkottai branch?</button>
+                    <button class="chat-option-btn" onclick="botRespond('services')">🛠️ What services do you offer?</button>
+                </div>
             </div>
-        </div>
-
-        <div class="footer-bottom">
-            <p>&copy; 2026 NJ Interior Pudukkottai. All rights reserved.</p>
-            <div class="footer-bottom-links">
-                <a href="#projects">30 Projects Showcase</a>
-                <a href="#query" onclick="scrollToInquiry()">Book Site Visit</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript Execution Layer -->
-    <script>
-        // Highly granular local database modeling the 30 project entries requested
-        const projectCollection = [
-            {
-                id: 1,
-                name: "The Obsidian Sliding Closet",
-                category: "Wardrobe",
-                location: "Kalif Nagar, Pudukkottai",
-                desc: "An architectural sliding wardrobe setup utilizing heavy-gauge aluminum profiles, tinted black glass doors, and automated motion-activated warm white strip hangers.",
-                mainImg: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=500&q=80",
-                gallery: [
-                    "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=500&q=80",
-                    "https://images.unsplash.com/photo-1558882224-dda166733079?auto=format&fit=crop&w=500&q=80"
-                ]
-            },
-            {
-                id: 2,
-                name: "BWP Marine Grade Modular Kitchen",
-                category: "Kitchen Cabinet",
-                location: "Kamarajapuram, Pudukkottai",
-                desc: "An L-shaped custom kitchen engineered purely with certified Boiling Water Proof plywood. Features seamless acrylic drawers, soft-close Blum runners, and integrated gas lift cupboards.",
-                mainImg: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=500&q=80",
-                gallery: [
-                    "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=500&q=80",
-                    "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=500&q=80"
-                ]
-            },
-            {
-                id: 3,
-                name: "Floating Venner TV Panel",
-                category: "TV Unit",
-                location: "Nizam Colony, Pudukkottai",
-                desc: "A floating entertainment unit structured using rich natural ash wood veneer sheets, with space for soundbar, concealed wiring routes, and warm LED backlight diffusion.",
-                mainImg: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=500&q=80",
-                gallery: [
-                    "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=500&q=80",
-                    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80"
-                ]
-            },
-            {
-                id: 4,
-                name: "Multi-Tier Gypsum False Ceiling",
-                category: "False Ceiling",
-                location: "Alangudi, Pudukkottai",
-                desc: "A clean modern false ceiling layout configured with premium Saint-Gobain plasterboards and loaded with dimmable Philips recessed spot fixtures.",
-                mainImg: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=500&q=80",
-                gallery: [
-                    "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=500&q=80",
-                    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=500&q=80"
-                ]
-            }
-        ];
-
-        // Seed 26 remaining signature projects to satisfy the "30 Projects" scope
-        const seedCategories = ["TV Unit", "False Ceiling", "Wardrobe", "Kitchen Cabinet"];
-        const seedLocations = ["Kamarajapuram", "Nizam Colony", "Alangudi", "Aranthangi", "Karambakkudi", "Thirumayam", "Viralimalai"];
-        const seedImages = [
-            "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=500&q=80"
-        ];
-
-        for(let i = 5; i <= 30; i++) {
-            const cat = seedCategories[i % seedCategories.length];
-            const loc = seedLocations[i % seedLocations.length];
-            const img = seedImages[i % seedImages.length];
-
-            projectCollection.push({
-                id: i,
-                name: `Bespoke Woodcraft ${cat} Series ${i}`,
-                category: cat,
-                location: `${loc}, Pudukkottai`,
-                desc: `A premium structural setup planned and assembled by NJ Interior. Engineered purely with high-strength core panels and finished with premium laminates matching the regional climate conditions of ${loc}.`,
-                mainImg: img,
-                gallery: [
-                    img,
-                    "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=500&q=80"
-                ]
-            });
-        }
-
-        // Render project data dynamically to satisfy Search Engine Optimization microdata standards
-        const portfolioGrid = document.getElementById('portfolioGrid');
-        
-        function populatePortfolio() {
-            projectCollection.forEach(p => {
-                const article = document.createElement('article');
-                article.className = 'project-card';
-                article.setAttribute('itemscope', '');
-                article.setAttribute('itemtype', 'https://schema.org/CreativeWork');
-                
-                article.innerHTML = `
-                    <div class="project-card-img">
-                        <img itemprop="image" src="${p.mainImg}" alt="${p.name} inside ${p.location}" loading="lazy">
-                    </div>
-                    <div class="project-card-body">
-                        <div class="project-card-cat" itemprop="genre">${p.category}</div>
-                        <h3 class="project-card-title" itemprop="name">${p.name}</h3>
-                        <div class="project-card-loc" itemprop="contentLocation" itemscope itemtype="https://schema.org/Place">
-                            <!-- Pin Icon -->
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                            </svg>
-                            <span itemprop="name">${p.location}</span>
-                        </div>
-                        <meta itemprop="abstract" content="${p.desc}">
-                    </div>
-                `;
-                article.addEventListener('click', () => openModal(p));
-                portfolioGrid.appendChild(article);
-            });
-        }
-
-        populatePortfolio();
-
-        // Scroll reveal trigger
-        const revealConfig = {
-            threshold: 0.1,
-            rootMargin: "0px 0px -40px 0px"
-        };
-
-        const viewObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if(entry.isIntersecting) {
-                    entry.target.classList.add('revealed');
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, revealConfig);
-
-        document.querySelectorAll('.project-card').forEach(card => viewObserver.observe(card));
-
-        // Modal triggers
-        const modal = document.getElementById('projectModal');
-        const modalTitle = document.getElementById('modalTitle');
-        const modalLoc = document.getElementById('modalLoc');
-        const modalDesc = document.getElementById('modalDesc');
-        const modalGallery = document.getElementById('modalGallery');
-
-        function openModal(project) {
-            modalTitle.innerText = project.name;
-            modalLoc.innerText = `📍 Location: ${project.location}`;
-            modalDesc.innerText = project.desc;
             
-            modalGallery.innerHTML = '';
-            project.gallery.forEach(imgSrc => {
-                const img = document.createElement('img');
-                img.src = imgSrc;
-                img.alt = `${project.name} complete woodwork layout`;
-                modalGallery.appendChild(img);
-            });
+            <button class="floating-btn chatbot-btn" onclick="toggleChat()" title="Chat Assistant">
+                <svg viewBox="0 0 24 24">
+                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
 
-            modal.style.display = 'flex';
-        }
-
-        function closeModal() {
-            modal.style.display = 'none';
-        }
-
-        window.onclick = function(e) {
-            if (e.target === modal) {
-                closeModal();
-            }
-        }
-
-        // Asynchronous Google Form submission logic
-        async function handleFormSubmission(event) {
-            event.preventDefault();
-            const form = event.target;
-            const formData = new FormData(form);
-            const actionUrl = form.action;
-
-            if (actionUrl.includes("YOUR_FORM_ID_HERE")) {
-                alert("Website preview mode active. To map this quote request straight into your Google Sheets, insert your real Google Form action ID in the codebase.");
-                return;
-            }
-
-            try {
-                await fetch(actionUrl, {
-                    method: 'POST',
-                    mode: 'no-cors',
-                    body: formData
-                });
-                alert("Inquiry compiled and saved directly into the spreadsheet database! Our design specialists will contact you soon.");
-                form.reset();
-            } catch (err) {
-                console.error("Transmission error:", err);
-                alert("Could not reach our database. Please use our direct Call or WhatsApp button options.");
-            }
-        }
-
-        // Floating Chat & Assistant toggles
-        const chatOverlay = document.getElementById('chatOverlay');
-        const chatBody = document.getElementById('chatBody');
-
-        function toggleChatWindow() {
-            chatOverlay.style.display = (chatOverlay.style.display === 'flex') ? 'none' : 'flex';
-        }
-
-        function scrollToInquiry() {
-            document.getElementById('query').scrollIntoView({ behavior: 'smooth' });
-        }
-
-        function botRespond(option) {
-            let userMsg = "";
-            let botReply = "";
-
-            if (option === 'pricing') {
-                userMsg = "Price ranges for modular kitchens?";
-                botReply = "Our factory-direct BWP Modular Kitchen cabinets start from ₹1.2 Lakhs depending on the configuration (L-Shaped, Parallel, or Straight) and chosen hardware finishes (soft-close hinges, auto-opening drawers).";
-            } else if (option === 'location') {
-                userMsg = "Address details in Pudukkottai?";
-                botReply = "Our experience studio is located at Kalif Nagar 4th Street, Near SFS School, Pudukkottai, Tamil Nadu - 622001. We provide on-site measurements across the entire district!";
-            } else if (option === 'consultation') {
-                userMsg = "Book a free 3D blueprint consult?";
-                botReply = "Fantastic! Simply fill out your name, contact number, and choose your required service inside our Inquiry Card on the right. We will handle the rest.";
-            }
-
-            // Render User Bubble
-            const userBubble = document.createElement('div');
-            userBubble.className = 'chat-bubble user';
-            userBubble.innerText = userMsg;
-            chatBody.appendChild(userBubble);
-
-            // Render Bot Response with typing latency
-            setTimeout(() => {
-                const botBubble = document.createElement('div');
-                botBubble.className = 'chat-bubble bot';
-                botBubble.innerText = botReply;
-                chatBody.appendChild(botBubble);
-                chatBody.scrollTop = chatBody.scrollHeight;
-            }, 400);
-
-            chatBody.scrollTop = chatBody.scrollHeight;
-        }
-    </script>
+    <!-- JavaScript For Page Functionality -->
+    <script src="./js/script.js"></script>
+    
 </body>
 </html>
